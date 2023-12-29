@@ -18,15 +18,15 @@
 
 ## Sobre o projeto
 Projeto desenvolvido com objetivo de:
-- [] construir um aplicativo de rastreamento de entregas 
+- [x] construir um aplicativo de rastreamento de entregas 
 - [] permita o usuário autenticado visualizar uma lista de pedidos (produtos) (produtos)
 - [] atualizar o status de cada pedido 
-- [] fornecer recursos de autenticação e segurança.
+- [x] fornecer recursos de autenticação e segurança.
 
 #### Funcionalidades
 - [x] repositório (monorepo) no GitHub, com instruções claras para executar a aplicação localmente.
 - [] uso React com Redux para o desenvolvimento do frontend.
-- [] uso TypeScript para tipagem estática.
+- [x] uso TypeScript para tipagem estática.
 - [] execução da aplicação com contêiner Docker.
 - [x] o backend desenvolvido usando NestJS com Prisma.
 - [] o backend fornecer uma API RESTful para listar e atualizar os pedidos (produtos), incluindo autenticação de usuário e autorização de rotas.
@@ -34,7 +34,7 @@ Projeto desenvolvido com objetivo de:
 - [] banco de dados PostgreSQL para persistir os dados dos pedidos (produtos) e informações dos usuários.
 - [x] princípios SOLID no desenvolvimento do aplicativo.
 - [] conceito de Atomic Design na estruturação dos componentes do frontend.
-- [] testes unitários para as principais funcionalidades do aplicativo, tanto no frontend quanto no backend.
+- [x] testes unitários para as principais funcionalidades do aplicativo, tanto no frontend quanto no backend.
 
 ## Layout
 
@@ -63,7 +63,8 @@ $ git clone git@github.com:leandrojsantos/delliv-fullstack
 
 # Feito isso vá até a pasta FrontEnd e abrir o arquivo README.md seguir os passos nele descritos
 
-# obs.: em resumo, todas as pastas tem um README.md para app estar funcionado deve ter: 1 backend ok | 2 frontend ok
+# obs.: em resumo, todas as pastas tem um README.md 
+# para app funcionar deve ser inicializar: 1 backend ok | 2 frontend ok
 
 
 ```
