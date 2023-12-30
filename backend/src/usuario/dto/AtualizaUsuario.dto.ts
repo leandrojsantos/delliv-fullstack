@@ -1,9 +1,8 @@
 import { IsEmail, IsNotEmpty, IsOptional, MinLength } from 'class-validator';
 import { EmailEhUnico } from '../validacao/email-eh-unico.validator';
 
-export class AtulizaUsuarioDTO {
+export class AtualizaUsuarioDTO {
   @IsNotEmpty({ message: 'O nome não pode ser vazio' })
-  @MinLength(3, { message: 'O nome precisa ter pelo menos 3 caracteres' })
   @IsOptional()
   nome: string;
 

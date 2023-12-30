@@ -12,7 +12,7 @@ import { randomUUID } from 'crypto';
 import { CriaProdutoDTO } from './dto/CriaProduto.dto';
 import { ProdutoEntity } from './produto.entity';
 import { ProdutoRepository } from './produto.repository';
-import { AtualizaProdutoDTO } from './dto/AtualizaProduto.dto';
+import { AtualizaProdutoDTO } from './dto/AtualizaUsuario.dto';
 
 @Controller('produtos')
 export class ProdutoController {
