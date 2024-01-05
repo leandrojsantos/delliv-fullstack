@@ -1,10 +1,10 @@
 import {
   Entity,
   Column,
-  PrimaryGeneratedColumn,
   CreateDateColumn,
   UpdateDateColumn,
   DeleteDateColumn,
+  PrimaryGeneratedColumn,
 } from 'typeorm';
 
 @Entity({ name: 'produtos' })
@@ -38,4 +38,7 @@ export class ProdutoEntity {
 
   @DeleteDateColumn({ name: 'deleted_at' })
   deletedAt: string;
+
+  // caracteristicas: CaracteristicaProduto[];
+  // imagens: ImagemProduto[];
 }

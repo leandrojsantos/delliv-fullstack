@@ -1,10 +1,10 @@
 import {
+  Entity,
   Column,
   CreateDateColumn,
-  DeleteDateColumn,
-  Entity,
-  PrimaryGeneratedColumn,
   UpdateDateColumn,
+  DeleteDateColumn,
+  PrimaryGeneratedColumn,
 } from 'typeorm';
 
 @Entity({ name: 'usuarios' })

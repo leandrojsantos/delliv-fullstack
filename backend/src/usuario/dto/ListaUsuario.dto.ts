@@ -1,3 +1,3 @@
 export class ListaUsuarioDTO {
-  constructor(readonly nome: string, readonly id: string) {}
+  constructor(readonly id: string, readonly nome: string) {}
 }

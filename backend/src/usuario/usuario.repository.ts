@@ -1,5 +1,6 @@
-import { UsuarioEntity } from './usuario.entity';
 import { Injectable } from '@nestjs/common';
+import { UsuarioEntity } from './usuario.entity';
+
 @Injectable()
 export class UsuarioRepository {
   private usuarios: UsuarioEntity[] = [];
@@ -26,14 +27,14 @@ export class UsuarioRepository {
     );
 
     if (!possivelUsuario) {
-      throw new Error('usuarios nao existe');
+      throw new Error('Usuário não existe');
     }
 
     return possivelUsuario;
   }
 
   async atualiza(id: string, dadosDeAtualizacao: Partial<UsuarioEntity>) {
-    const usuario = await this.buscaPorId(id);
+    const usuario = this.buscaPorId(id);
 
     Object.entries(dadosDeAtualizacao).forEach(([chave, valor]) => {
       if (chave === 'id') {
@@ -47,7 +48,7 @@ export class UsuarioRepository {
   }
 
   async remove(id: string) {
-    const usuario = await this.buscaPorId(id);
+    const usuario = this.buscaPorId(id);
     this.usuarios = this.usuarios.filter(
       (usuarioSalvo) => usuarioSalvo.id !== id,
     );

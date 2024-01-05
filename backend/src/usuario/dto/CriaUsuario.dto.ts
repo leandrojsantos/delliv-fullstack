@@ -3,7 +3,6 @@ import { EmailEhUnico } from '../validacao/email-eh-unico.validator';
 
 export class CriaUsuarioDTO {
   @IsNotEmpty({ message: 'O nome não pode ser vazio' })
-  @MinLength(3, { message: 'O nome precisa ter pelo menos 3 caracteres' })
   nome: string;
 
   @IsEmail(undefined, { message: 'O e-mail informado é inválido' })
