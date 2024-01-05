@@ -14,13 +14,13 @@
 
 ## Funcionalidades
 - [x] repositório (monorepo) no GitHub, com instruções claras para executar a aplicação localmente.
-- [] execução da aplicação com contêiner Docker.
+- [x] execução da aplicação com contêiner Docker.
 - [x] o backend desenvolvido usando NestJS com Prisma.
 - [x] o backend fornecer uma API RESTful para listar e atualizar os usuarios.
 - [x] o backend fornecer uma API RESTful para listar e atualizar os pedidos (produtos).
-- [] banco de dados PostgreSQL para persistir os dados dos pedidos (produtos) e informações dos usuários.
+- [x] banco de dados PostgreSQL para persistir os dados dos pedidos (produtos) e informações dos usuários.
 - [x] princípios SOLID no desenvolvimento do aplicativo.
-- [] testes unitários para as principais funcionalidades do aplicativo.
+- [x] testes unitários para as principais funcionalidades do aplicativo.
 
 ## Rodando o projeto
 ```bash
@@ -38,3 +38,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Docker Compose,
 - Jest,
 - Insomnia,
+
+Com as bibliotecas do package.json: "dependencies" e "devDependencies"
